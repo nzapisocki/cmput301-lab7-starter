@@ -68,4 +68,6 @@ public class MainActivityTest {
 // You can also use anything() in place of is(instanceOf(String.class))
         onData(is(instanceOf(String.class))).inAdapterView(withId(R.id.city_list)).atPosition(0).check(matches((withText("Edmonton"))));
     }
+
+
 }
